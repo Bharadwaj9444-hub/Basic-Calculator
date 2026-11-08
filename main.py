@@ -1,4 +1,5 @@
-# Simple calculator - python project
+# Simple calculator
+
 def add_numbers(first_number, second_number):
     """Returns the sum of two numbers."""
     return first_number + second_number
@@ -29,11 +30,6 @@ def modulus_numbers(first_number, second_number):
     
     return first_number % second_number
 
-print(add_numbers.__doc__)
-print(subtract_numbers.__doc__)
-print(multiply_numbers.__doc__)
-print(divide_numbers.__doc__)
-print(modulus_numbers.__doc__)
 
 if __name__ == "__main__":
     while True:
